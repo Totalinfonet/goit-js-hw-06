@@ -26,6 +26,7 @@ const makeListMarkup = images.map(makeItemMarkup).join("");
 tagRef.insertAdjacentHTML("afterbegin", makeListMarkup);
 
 tagRef.style.display = "flex";
+tagRef.style.justifyContent = "center";
 tagRef.style.gap = "20px";
 tagRef.style.listStyle = "none";
 tagRef.style.margin = "0";
